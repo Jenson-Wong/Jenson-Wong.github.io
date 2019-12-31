@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Love</title>
+		<link rel="stylesheet" href="css/hovertree.css" />
+	</head>
+	<body>
+		<div class="hovertreeinfo">
+			<h2></h2>
+		</div>
+    	 
+		<!-- ���Զ��������� -->
+		<audio loop src="img/qianyuqianxun.mp3" id="audio" autoplay preload="auto">���������֧��audio����</audio>
+		<script type="text/javascript">
+		//--����ҳ��������ȴ�΢�Ŷ�ҳ�������� ������Ƶ����
+		document.addEventListener('DOMContentLoaded', function () {
+			function audioAutoPlay() {
+				var audio = document.getElementById('audio');
+					audio.play();
+				document.addEventListener("WeixinJSBridgeReady", function () {
+					audio.play();
+				}, false);
+			}
+			audioAutoPlay();
+		});
+		//--�����������������������ҳ��ʱ��������Ļ�����¼���������Ƶ����
+		document.addEventListener('touchstart', function () {
+			function audioAutoPlay() {
+				var audio = document.getElementById('audio');
+					audio.play();
+			}
+			audioAutoPlay();
+		});
+		
+					
+		</script>
+		<div id="wrap">
+			<div id="text">
+				<div style="color:white">                 
+				<span class="say">2019年是个不平凡的一年，最后一天我还答应你让你放飞自我，不过只有几天时间啊，这半天我感觉就像过了半个世纪。
+					我们在2019年还是有很多回忆的，在家里，在北京，在武汉。我们一起开心，吵架，各自为梦想挣扎。
+					我相信不管咋样，我们都能找到一个契合点，一直在一起。我会为之努力的。
+					2020，爱你爱你，我们也要携手同心，一起加油！
+					</span><br>
+					<span class="say">老婆子，我爱你！</span>
+				
+			   
+				<span class="say"><span class="space"></span> -- 爱你的神经病</span>
+				</div>
+			 </div>
+		<div class="wrap">
+			<div class="cube">
+				
+				<div class="out_front">
+					<img src="img/img01.jpg " class="pic" />
+				</div>
+				
+				<div class="out_back">
+					<img src="img/img02.jpg" class="pic"/>
+				</div>
+				
+				<div class="out_left">
+					<img src="img/img03.jpg" class="pic" />
+				</div>
+				<div class="out_right">
+					<img src="img/img04.jpg" class="pic" />
+				</div>
+				<div class="out_top">
+					<img src="img/img05.jpg" class="pic" />
+				</div>
+				<div class="out_bottom">
+					<img src="img/img06.jpg" class="pic" />
+				</div>
+				<!--С������ -->
+				<span class="in_front">
+					<img src="img/img07.jpg" class="in_pic" />
+				</span>
+				<span class="in_back">
+					<img src="img/img08.jpg" class="in_pic" />
+				</span>
+				<span class="in_left">
+					<img src="img/img09.jpg" class="in_pic" />
+				</span>
+				<span class="in_right">
+					<img src="img/img10.jpg" class="in_pic" />
+				</span>
+				<span class="in_top">
+					<img src="img/img11.jpg" class="in_pic" />
+				</span>
+				<span class="in_bottom">
+					<img src="img/img12.jpg" class="in_pic" />
+				</span>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="css/clicklove.js"></script>
+	</body>
+</html>
